@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[VERIFYMAXMAINCATEGORYLIST is Passed]]>
+    </line>
+    <line>
+      <![CDATA[VERIFYMAXMAINCATEGORYLIST is Passed]]>
+    </line>
+    <line>
+      <![CDATA[VERIFYMAXMAINCATEGORYLIST is Passed]]>
+    </line>
+    <line>
+      <![CDATA[VERIFYMAXMAINCATEGORYLIST is Passed]]>
+    </line>
+    <line>
+      <![CDATA[VERIFYMAXMAINTOTALLIST is Passed]]>
+    </line>
+    <line>
+      <![CDATA[VERIFYMAXLOGOINHEADER is Passed]]>
+    </line>
+    <line>
+      <![CDATA[VERIFYPRODUCTSELECTION is Passed]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="107201" started-at="2020-05-26T18:49:04Z" finished-at="2020-05-26T18:50:51Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="46953" started-at="2020-05-26T18:49:04Z" finished-at="2020-05-26T18:49:51Z">
+      <class name="testcases.MaxMainPageTest">
+        <test-method status="PASS" signature="runFirst()[pri:0, instance:testcases.MaxMainPageTest@71e693fa]" name="runFirst" is-config="true" duration-ms="37963" started-at="2020-05-26T18:49:04Z" finished-at="2020-05-26T18:49:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runFirst -->
+        <test-method status="PASS" signature="verifyMaxMainCategoryList(java.util.Map)[pri:0, instance:testcases.MaxMainPageTest@71e693fa]" name="verifyMaxMainCategoryList" duration-ms="5894" started-at="2020-05-26T18:49:42Z" data-provider="dp" finished-at="2020-05-26T18:49:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{categories=SHOP WOMEN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[VERIFYMAXMAINCATEGORYLIST is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMaxMainCategoryList -->
+        <test-method status="PASS" signature="verifyMaxMainCategoryList(java.util.Map)[pri:0, instance:testcases.MaxMainPageTest@71e693fa]" name="verifyMaxMainCategoryList" duration-ms="71" started-at="2020-05-26T18:49:48Z" data-provider="dp" finished-at="2020-05-26T18:49:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{categories=SHOP MEN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[VERIFYMAXMAINCATEGORYLIST is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMaxMainCategoryList -->
+        <test-method status="PASS" signature="verifyMaxMainCategoryList(java.util.Map)[pri:0, instance:testcases.MaxMainPageTest@71e693fa]" name="verifyMaxMainCategoryList" duration-ms="55" started-at="2020-05-26T18:49:48Z" data-provider="dp" finished-at="2020-05-26T18:49:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{categories=SHOP GIRLS}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[VERIFYMAXMAINCATEGORYLIST is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMaxMainCategoryList -->
+        <test-method status="PASS" signature="verifyMaxMainCategoryList(java.util.Map)[pri:0, instance:testcases.MaxMainPageTest@71e693fa]" name="verifyMaxMainCategoryList" duration-ms="197" started-at="2020-05-26T18:49:48Z" data-provider="dp" finished-at="2020-05-26T18:49:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{categories=SHOP BOYS}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[VERIFYMAXMAINCATEGORYLIST is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMaxMainCategoryList -->
+        <test-method status="PASS" signature="verifyMaxMainTotalList()[pri:0, instance:testcases.MaxMainPageTest@71e693fa]" name="verifyMaxMainTotalList" duration-ms="19" started-at="2020-05-26T18:49:49Z" finished-at="2020-05-26T18:49:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[VERIFYMAXMAINTOTALLIST is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMaxMainTotalList -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testcases.MaxMainPageTest@71e693fa]" name="quitBrowser" is-config="true" duration-ms="2096" started-at="2020-05-26T18:49:49Z" finished-at="2020-05-26T18:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testcases.MaxMainPageTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="56397" started-at="2020-05-26T18:49:55Z" finished-at="2020-05-26T18:50:51Z">
+      <class name="testcases.MaxHeaderPageTest">
+        <test-method status="PASS" signature="runFirst()[pri:0, instance:testcases.MaxHeaderPageTest@56c4278e]" name="runFirst" is-config="true" duration-ms="14856" started-at="2020-05-26T18:49:55Z" finished-at="2020-05-26T18:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runFirst -->
+        <test-method status="PASS" signature="verifyMaxLogoInHeader()[pri:0, instance:testcases.MaxHeaderPageTest@56c4278e]" name="verifyMaxLogoInHeader" duration-ms="1766" started-at="2020-05-26T18:50:09Z" finished-at="2020-05-26T18:50:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[VERIFYMAXLOGOINHEADER is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMaxLogoInHeader -->
+        <test-method status="PASS" signature="verifyProductSelection(java.util.Map)[pri:0, instance:testcases.MaxHeaderPageTest@56c4278e]" name="verifyProductSelection" duration-ms="33888" started-at="2020-05-26T18:50:13Z" data-provider="dp2" finished-at="2020-05-26T18:50:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TCDATA5=L, TCDATA2=Essentials, TC DESCRIPTION=PLACE WOMEN ORDER FOR under Essentials,select Tops & Tees , TCDATA1=women, TCDATA4=MAX Solid Short Sleeves Top, TCNO=1, TCDATA3=Tops & Tees}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[VERIFYPRODUCTSELECTION is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductSelection -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testcases.MaxHeaderPageTest@56c4278e]" name="quitBrowser" is-config="true" duration-ms="4536" started-at="2020-05-26T18:50:46Z" finished-at="2020-05-26T18:50:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testcases.MaxHeaderPageTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- TestSuite -->
+</testng-results>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[VERIFYMAXLOGOINHEADER is Passed]]>
+    </line>
+    <line>
+      <![CDATA[VERIFYWOMENPRODUCTSELECTION is Passed]]>
+    </line>
+    <line>
+      <![CDATA[VERIFYWOMENPRODUCTSELECTION is Passed]]>
+    </line>
+    <line>
+      <![CDATA[VERIFYBASKETINFORMATION is Passed]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="107111" started-at="2020-05-29T16:09:53Z" finished-at="2020-05-29T16:11:40Z">
+    <groups>
+      <group name="header">
+        <method signature="MaxHeaderPageTest.verifyMaxLogoInHeader()[pri:0, instance:testcases.MaxHeaderPageTest@8576fa0]" name="verifyMaxLogoInHeader" class="testcases.MaxHeaderPageTest"/>
+        <method signature="MaxHeaderPageTest.verifyWomenProductSelection(java.util.Map)[pri:0, instance:testcases.MaxHeaderPageTest@8576fa0]" name="verifyWomenProductSelection" class="testcases.MaxHeaderPageTest"/>
+      </group> <!-- header -->
+    </groups>
+    <test name="Test1" duration-ms="10" started-at="2020-05-29T16:09:53Z" finished-at="2020-05-29T16:09:53Z">
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="106956" started-at="2020-05-29T16:09:53Z" finished-at="2020-05-29T16:11:40Z">
+      <class name="testcases.MaxHeaderPageTest">
+        <test-method status="PASS" signature="runFirst()[pri:0, instance:testcases.MaxHeaderPageTest@8576fa0]" name="runFirst" is-config="true" duration-ms="24896" started-at="2020-05-29T16:09:53Z" finished-at="2020-05-29T16:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runFirst -->
+        <test-method status="PASS" signature="verifyMaxLogoInHeader()[pri:0, instance:testcases.MaxHeaderPageTest@8576fa0]" name="verifyMaxLogoInHeader" duration-ms="5766" started-at="2020-05-29T16:10:18Z" finished-at="2020-05-29T16:10:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[VERIFYMAXLOGOINHEADER is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMaxLogoInHeader -->
+        <test-method status="PASS" signature="verifyWomenProductSelection(java.util.Map)[pri:0, instance:testcases.MaxHeaderPageTest@8576fa0]" name="verifyWomenProductSelection" duration-ms="45260" started-at="2020-05-29T16:10:25Z" data-provider="dp2" finished-at="2020-05-29T16:11:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TCDATA5=M, TCDATA2=Essentials, TC DESCRIPTION=PLACE WOMEN ORDER FOR under Essentials,select Tops & Tees , TCDATA1=women, TCDATA4=MAX Striped Round Neck T-shirt, TCNO=1, TCDATA3=Tops & Tees}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[VERIFYWOMENPRODUCTSELECTION is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWomenProductSelection -->
+        <test-method status="PASS" signature="verifyWomenProductSelection(java.util.Map)[pri:0, instance:testcases.MaxHeaderPageTest@8576fa0]" name="verifyWomenProductSelection" duration-ms="27904" started-at="2020-05-29T16:11:10Z" data-provider="dp2" finished-at="2020-05-29T16:11:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TCDATA5=L, TCDATA2=Lingerie, TC DESCRIPTION=PLACE WOMEN ORDER FOR under Lingerie,select , TCDATA1=women, TCDATA4=MAX Printed Camisole, TCNO=2, TCDATA3=Slips}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[VERIFYWOMENPRODUCTSELECTION is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWomenProductSelection -->
+        <test-method status="PASS" signature="verifyBasketInformation()[pri:0, instance:testcases.MaxHeaderPageTest@8576fa0]" name="verifyBasketInformation" duration-ms="2163" started-at="2020-05-29T16:11:38Z" depends-on-methods="testcases.MaxHeaderPageTest.verifyWomenProductSelection" finished-at="2020-05-29T16:11:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[VERIFYBASKETINFORMATION is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBasketInformation -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testcases.MaxHeaderPageTest@8576fa0]" name="quitBrowser" is-config="true" duration-ms="0" started-at="2020-05-29T16:11:40Z" finished-at="2020-05-29T16:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testcases.MaxHeaderPageTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- TestSuite -->
+</testng-results>

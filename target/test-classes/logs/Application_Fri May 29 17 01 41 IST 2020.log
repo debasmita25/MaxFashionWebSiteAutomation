@@ -1,0 +1,35 @@
+29/05/2020 17:02:07 devpinoyLogger Launching Chrome browser
+29/05/2020 17:02:07 devpinoyLogger Assigning implicit timeout to browser
+29/05/2020 17:02:08 devpinoyLogger maximizing the browser
+29/05/2020 17:02:30 devpinoyLogger Launching URL
+29/05/2020 17:02:30 devpinoyLogger ****************************************************************************************
+29/05/2020 17:02:30 devpinoyLogger ****************************************************************************************
+29/05/2020 17:02:30 devpinoyLogger $$$$$$$$$$$$$$$$$$$$$                 testcases.MaxHeaderPageTest......verifyMaxLogoInHeader       $$$$$$$$$$$$$$$$$$$$$$$$$
+29/05/2020 17:02:30 devpinoyLogger ****************************************************************************************
+29/05/2020 17:02:30 devpinoyLogger ****************************************************************************************
+29/05/2020 17:02:31 devpinoyLogger verify Max Logo is present in Header Page
+29/05/2020 17:02:38 devpinoyLogger Max Logo is present in Header Page -successfully validate
+29/05/2020 17:02:41 devpinoyLogger ****************************************************************************************
+29/05/2020 17:02:41 devpinoyLogger ****************************************************************************************
+29/05/2020 17:02:41 devpinoyLogger $$$$$$$$$$$$$$$$$$$$$                 testcases.MaxHeaderPageTest......verifyWomenProductSelection       $$$$$$$$$$$$$$$$$$$$$$$$$
+29/05/2020 17:02:41 devpinoyLogger ****************************************************************************************
+29/05/2020 17:02:41 devpinoyLogger ****************************************************************************************
+29/05/2020 17:03:19 devpinoyLogger Verifying the total products is displayed
+29/05/2020 17:03:19 devpinoyLogger Total products are displayed successfully
+29/05/2020 17:03:36 devpinoyLogger Verifying the retrieved product is same searched
+29/05/2020 17:03:36 devpinoyLogger Verified the retrieved product is same searched successfully
+29/05/2020 17:03:47 devpinoyLogger ****************************************************************************************
+29/05/2020 17:03:47 devpinoyLogger ****************************************************************************************
+29/05/2020 17:03:47 devpinoyLogger $$$$$$$$$$$$$$$$$$$$$                 testcases.MaxHeaderPageTest......verifyWomenProductSelection       $$$$$$$$$$$$$$$$$$$$$$$$$
+29/05/2020 17:03:47 devpinoyLogger ****************************************************************************************
+29/05/2020 17:03:47 devpinoyLogger ****************************************************************************************
+29/05/2020 17:04:08 devpinoyLogger Verifying the total products is displayed
+29/05/2020 17:04:08 devpinoyLogger Total products are displayed successfully
+29/05/2020 17:04:18 devpinoyLogger Verifying the retrieved product is same searched
+29/05/2020 17:04:18 devpinoyLogger Verified the retrieved product is same searched successfully
+29/05/2020 17:04:56 devpinoyLogger Screenshots taken successfully for method --verifyWomenProductSelection
+29/05/2020 17:04:58 devpinoyLogger XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+29/05/2020 17:04:58 devpinoyLogger X
+29/05/2020 17:04:58 devpinoyLogger X
+29/05/2020 17:04:58 devpinoyLogger X
+29/05/2020 17:04:58 devpinoyLogger X
