@@ -147,9 +147,9 @@ public class MaxHeaderPageTest {
 	public void quitBrowser()
 
 	{
-		//driver.quit();
-		//dm.tearDown();
-		//dm = null;
+		driver.quit();
+		dm.tearDown();
+		dm = null;
 	}
 
 }
